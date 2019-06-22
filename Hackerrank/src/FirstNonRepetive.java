@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Scanner;
 
 
@@ -19,11 +20,13 @@ public class FirstNonRepetive {
     
     public static Character firstNonRepeatedCharacter(String str)
     {
-        HashMap<Character,Integer>  hm = 
-                     new HashMap<Character ,Integer>();
-        int i,length ;
+    	LinkedHashMap<Character,Integer>  hm = new LinkedHashMap<Character ,Integer>();
+        
+    	int i,length ;
         Character c ;
         length= str.length();  // Scan string and build hash table
+        
+        
         for (i=0;i < length;i++)
         {
             c=str.charAt(i);
