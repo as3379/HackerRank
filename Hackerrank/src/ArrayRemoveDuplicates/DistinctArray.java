@@ -1,3 +1,4 @@
+package ArrayRemoveDuplicates;
 import java.util.Arrays;
 
 public class DistinctArray{ 

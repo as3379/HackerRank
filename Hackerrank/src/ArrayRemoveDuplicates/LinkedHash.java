@@ -1,3 +1,4 @@
+package ArrayRemoveDuplicates;
 
 
 
@@ -8,7 +9,7 @@ import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
  
-public class RemoveDuplicates
+public class LinkedHash
 	{
      public static void main(String[] args)
 	    {
@@ -22,13 +23,15 @@ public class RemoveDuplicates
         LinkedHashSet<Integer> hashSet = new LinkedHashSet<>(Original);
         
         //Convert this LinkedHashSet back to Arraylist. 
-       // ArrayList<Integer> listWithoutDuplicates = new ArrayList<>(hashSet);
+       ArrayList<Integer> listWithoutDuplicates = new ArrayList<>(hashSet);
         
         //Since I'm passing Original into HashSet you dont have to convert it to array
-        System.out.println(hashSet);
+        System.out.println(listWithoutDuplicates);
     
     	    Set<Integer> duplicates = new LinkedHashSet<>();
     	    Set<Integer> uniques = new HashSet<>();
+    	    
+    	    //System.out.println("Duplicate uniques : "+ uniques);
 
     	    for(Integer t : Original) {
     	        if(!uniques.add(t)) {

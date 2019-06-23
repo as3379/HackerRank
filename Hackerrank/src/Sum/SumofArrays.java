@@ -1,3 +1,4 @@
+package Sum;
 
 public class SumofArrays {
 	

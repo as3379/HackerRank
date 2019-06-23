@@ -1,7 +1,8 @@
+package ArraySort;
 import java.io.*; 
 import java.util.*; 
   
-public class SortArray { 
+public class SortInt { 
       
           
     // function for sort array 
@@ -16,6 +17,8 @@ public class SortArray {
            {
                for (int j = i + 1; j < n; j++) 
                {
+            	   
+            	   //replace ">" with "<" to sort elements in descending order
                    if (arr[i] > arr[j]) 
                    {
                        temp = arr[i];
@@ -26,7 +29,7 @@ public class SortArray {
                }
            }
 //           System.out.print("Ascending Order:");
-           for (int i = 0; i < n - 1; i++) 
-           {
-               System.out.print(arr[i] + " ");
-    }}}
+//           for (int i = 0; i < n - 1; i++) 
+//           {
+               System.out.print(Arrays.toString(arr));
+    }}
