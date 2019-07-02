@@ -17,7 +17,7 @@ public class IfElse {
     	
     	System.out.println("Enter your number please !!");
         int n = scanner.nextInt();
-        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+        //scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
         scanner.close();
         

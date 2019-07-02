@@ -5,7 +5,7 @@ import java.util.*;
 public class SortInt { 
       
           
-    // function for sort array 
+    // function for sorting array 
   
     // Driver code 
     public static void main(String args[]) 

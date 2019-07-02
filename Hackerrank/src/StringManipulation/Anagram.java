@@ -26,6 +26,6 @@ public class Anagram {
    
     public static void main(String[] args) {  
         isAnagram("KEEP", "Peek");  
-        isAnagram("Mother In Law", "Hitler Womfn");  
+        isAnagram("Mother In Law", "Hitler Women");  
     }  
 }  

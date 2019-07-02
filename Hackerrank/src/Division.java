@@ -3,7 +3,7 @@ public class Division {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
- int n = 4;
+ int n = 160;
 	
  if (n%8 !=0 && n%16 !=0 && n%32 !=0)
  {
@@ -12,9 +12,14 @@ public class Division {
 	  
  }
  
- else
-	 
+ else if (n%8 ==0 && n%16 ==0 && n%32 ==0)
  {
+	  
+	  System.out.println("	Number is  divisible by 8, 16, 32") ;
+ 
+}
+	 
+ else {
   
 	  
 	   if (n%8==0)

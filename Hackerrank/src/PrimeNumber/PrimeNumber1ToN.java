@@ -20,11 +20,11 @@ public class PrimeNumber1ToN {
                 if ( num % 2 == 1)
                 {
                 	
-                	 PrimeNumbers = PrimeNumbers + num + " "; //System.out.println(num + " is not a prime " ); 
-                	
+                	 //PrimeNumbers = PrimeNumbers + num + " "; //System.out.println(num + " is not a prime " ); 
+                	  System.out.print(num + " ");
                 }
             
               
     }
-        System.out.println(PrimeNumbers);
+        //System.out.println(PrimeNumbers);
 }}
